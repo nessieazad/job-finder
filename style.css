@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    color: rgb(214, 11, 11);
+}
+
+.navbar-brand:hover {
+    color: rgb(10, 10, 94);
+    transition: 0.3s;
+}
+
+.nav-link {
+    color: rgb(10, 10, 94);
+}
+
+.nav-link:hover {
+    color: rgb(214, 11, 11);
+}
+
+.btn-0 {
+    background-color: rgb(248, 83, 83);
+    color: white;
+    transition: all 0.5s;
+}
+
+.btn-0:hover {
+    background-color: rgb(214, 11, 11);
+}
+
+.btn-01 {
+    color: rgb(214, 11, 11);
+    border: 5px;
+    transition: 0.4s;
+}
+
+.btn-01:hover {
+    background-color: rgb(214, 11, 11);
+    color: white;
+    border: 0;
+}
+
+/* ---------------header end----------------- */
+.banner {
+    background-image: url(images/main1copy.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 90vh;
+}
+
+/* by shamim start  */
+.banner h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    color: rgb(7, 7, 78);
+}
+
+.banner input {
+    outline: none;
+}
+
+.banner button {
+    background-color: rgb(248, 83, 83);
+    margin-left: -4px;
+    color: white;
+    transition: all 0.5s;
+}
+
+.banner button:hover {
+    background-color: red;
+}
+
+/* by shamim end  */
+
+.multiple-box {
+    width: 20%;
+    color: black;
+    transition: all 0.5s;
+
+}
+
+.multiple-box:hover {
+    width: 20%;
+    color: red;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.browse-bttn {
+    border: 1px solid rgb(130, 130, 231);
+    color: rgb(130, 130, 231);
+    transition: all 0.3s;
+}
+
+.browse-bttn:hover {
+    background-color: rgb(130, 130, 231);
+    color: white;
+}
+
+/* ------------------- */
+.online-resume {
+    background: linear-gradient(rgba(4, 11, 75, 0.719), rgba(4, 26, 100, 0.73)), url(images/woman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+
+}
+
+.py-25 {
+    padding: 10% 0 10% 0;
+}
+
+/* ------------------------------ */
+.post-job {
+    background-color: rgb(248, 83, 83);
+    color: white;
+    transition: all 0.5s;
+    ;
+}
+
+.post-job:hover {
+    background-color: red;
+}
+
+/* -----------how it works begin-------------  */
+
+.it-works {
+    background-image: url(images/cool-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* ---------contact-person-------------- */
+.contact-button {
+    background-color: rgb(248, 83, 83);
+    color: white;
+    transition: all 0.5s;
+    border-radius: 5px;
+    ;
+}
+
+.contact-button:hover {
+    background-color: red;
+}
+
+/* ------------------------ */
+.choices-link {
+    color: gray;
+    transition: all o.4s;
+}
+
+.choices-link:hover {
+    color: #ff2962;
+    padding-left: 10px;
+}
+
+.email-bttn {
+    height: 45px;
+    width: 70%;
+    border: none;
+    outline: none;
+}
+
+.go-bttn {
+    background-color: #ff2962;
+    height: 45px;
+    width: 20%;
+    border: none;
+    margin-left: -5px;
+    color: white;
+
+}
